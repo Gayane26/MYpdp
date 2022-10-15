@@ -55,8 +55,7 @@ echo "$USER is $name 's user"
 echo "$(whoami) is $name 's user"
 
 mydir=$(pwd)
-# kam
-mydir2=$(pwd)
+
 echo "$mydir is $name 's directory"
 
 echo " $(pwd) is $name 's directory&path"
