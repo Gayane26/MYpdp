@@ -34,9 +34,9 @@ fi
 first="Cragravorum-C"
 second="Cragravorum-bash"
 
-if [ first ] >second; then
+if [ first > second ]; then
   echo "First is longer"
-elif [ first ] <second; then
+elif [ first <second ]; then
   echo "First is shorter"
 elif [ first = second ]; then
   echo "First equal to second"
