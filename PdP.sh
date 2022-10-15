@@ -4,7 +4,7 @@
 
 username=dell
 
-if grep $username /etc/passwd; then
+if grep $username /etc/pwd; then
   echo "user have founded"
   cd /home/dell/bash/
   ls
